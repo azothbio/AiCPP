@@ -7,7 +7,7 @@ These are the seven AiCPP models that we developed.
 ### Train set
 For training our CPP model, 3894 sequences with 2729 CPPs and 1165 non-CPPs were collected from the MLCPP (http://www.thegleelab.org/MLCPP/), CPPsite 2.0 (http://crdd.osdd.net/raghava/cppsite/), and lifetein (https://www.lifetein.com/Cell_Permeable_Peptides.html) databases. 
 
-![image](https://user-images.githubusercontent.com/94620359/181496965-86b7a10b-1619-49aa-9bdb-18354a19fe4e.png)
+![image](https://user-images.githubusercontent.com/94620359/181497124-232c3752-e136-4156-85d3-6bb2daed3714.png)
 
 
 ### External validation set
