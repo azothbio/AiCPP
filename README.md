@@ -8,9 +8,7 @@ These are the seven AiCPP models that we developed.
 For training our CPP model, 3894 sequences with 2729 CPPs and 1165 non-CPPs were collected from the MLCPP (http://www.thegleelab.org/MLCPP/), CPPsite 2.0 (http://crdd.osdd.net/raghava/cppsite/), and lifetein (https://www.lifetein.com/Cell_Permeable_Peptides.html) databases. In addition, 113,620 human reference proteins  was extracted for use as decoys.
 
 ### External validation set
-To validate our model, 2048 sequences with 806 CPPs and 1242 non-CPPs were collected from the CellPPD (https://webs.iiitd.edu.in/raghava/cellppd/index.html) database and three articles (Dobchev et al., 2010; de Oliveira et al., 2021; Chen et al., 2015). Duplicate sequences or sequences in the training set were removed and, finally, 453 sequences with 109 CPPs and 344 non-CPPs were used for model validation
-
-![image](https://user-images.githubusercontent.com/94620359/181496857-d6cb6d91-1f96-445b-adfc-44c1407a3e65.png)
+To validate our model, 2048 sequences with 806 CPPs and 1242 non-CPPs were collected from the CellPPD (https://webs.iiitd.edu.in/raghava/cellppd/index.html) database and three articles (Dobchev et al., 2010; de Oliveira et al., 2021; Chen et al., 2015). Duplicate sequences or sequences in the training set were removed and, finally, 453 sequences with 109 CPPs and 344 non-CPPs were used for model validation.
 
 
 ## Model Algorithm
@@ -26,4 +24,5 @@ In each of the seven models, the peptide sequence was converted to a 3–10-dime
   
   
 ## **Performance evaluation of the CPP predictors.**
-![image](https://user-images.githubusercontent.com/94620359/181462988-39ccdff1-045d-4933-975e-a3a1b627cc20.png)
+![image](https://user-images.githubusercontent.com/94620359/181497624-89e1cb9f-d96d-44f0-86b9-f0b320a47724.png)
+
