@@ -7,8 +7,14 @@ These are the seven AiCPP models that we developed.
 ### Train set
 For training our CPP model, 3894 sequences with 2729 CPPs and 1165 non-CPPs were collected from the MLCPP (http://www.thegleelab.org/MLCPP/), CPPsite 2.0 (http://crdd.osdd.net/raghava/cppsite/), and lifetein (https://www.lifetein.com/Cell_Permeable_Peptides.html) databases. 
 
+![image](https://user-images.githubusercontent.com/94620359/181496965-86b7a10b-1619-49aa-9bdb-18354a19fe4e.png)
+
+
 ### External validation set
 To validate our model, 2048 sequences with 806 CPPs and 1242 non-CPPs were collected from the CellPPD (https://webs.iiitd.edu.in/raghava/cellppd/index.html) database and three articles (Dobchev et al., 2010; de Oliveira et al., 2021; Chen et al., 2015). Duplicate sequences or sequences in the training set were removed and, finally, 453 sequences with 109 CPPs and 344 non-CPPs were used for model validation
+
+![image](https://user-images.githubusercontent.com/94620359/181496857-d6cb6d91-1f96-445b-adfc-44c1407a3e65.png)
+
 
 ## Model Algorithm
 For six of the seven models, except for model 7, the CPP predicted value of a given peptide sequence was calculated as the average of the sum of the predicted values of each 9mer obtained by sliding one 9mer from the beginning of the sequence to predict the CPP probability. 
