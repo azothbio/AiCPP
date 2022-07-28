@@ -5,10 +5,7 @@ These are the seven AiCPP models that we developed.
 ## Dataset
 
 ### Train set
-For training our CPP model, 3894 sequences with 2729 CPPs and 1165 non-CPPs were collected from the MLCPP (http://www.thegleelab.org/MLCPP/), CPPsite 2.0 (http://crdd.osdd.net/raghava/cppsite/), and lifetein (https://www.lifetein.com/Cell_Permeable_Peptides.html) databases. 
-
-![image](https://user-images.githubusercontent.com/94620359/181497124-232c3752-e136-4156-85d3-6bb2daed3714.png)
-
+For training our CPP model, 3894 sequences with 2729 CPPs and 1165 non-CPPs were collected from the MLCPP (http://www.thegleelab.org/MLCPP/), CPPsite 2.0 (http://crdd.osdd.net/raghava/cppsite/), and lifetein (https://www.lifetein.com/Cell_Permeable_Peptides.html) databases. In addition, 113,620 human reference proteins  was extracted for use as decoys.
 
 ### External validation set
 To validate our model, 2048 sequences with 806 CPPs and 1242 non-CPPs were collected from the CellPPD (https://webs.iiitd.edu.in/raghava/cellppd/index.html) database and three articles (Dobchev et al., 2010; de Oliveira et al., 2021; Chen et al., 2015). Duplicate sequences or sequences in the training set were removed and, finally, 453 sequences with 109 CPPs and 344 non-CPPs were used for model validation
