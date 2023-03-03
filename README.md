@@ -29,8 +29,9 @@ Table 1. Five different model architectures used in AiCPP.
   
   
 ## **Performance evaluation of the CPP predictors.**
-AiCPP demonstrates significantly higher performance with values of 0.927, 0.722, and 0.860 for AUC, MCC, and ACC, respectively. AiCPP also has a higher specificity for non-CPPs (0.893) compared to the three external models.  
+Table 3 shows that the AiCPP model outperforms the other models in terms of AUC, MCC, and ACC. When evaluated using a test set, the AiCPP model outperforms MLCPP, CellPPD, and CPPred, with values of 0.927, 0.722, and 0.860 for AUC, MCC, and ACC, respectively. In addition, the AiCPP model has a higher specificity for non-CPPs (0.893) compared to the three external models listed in Table 3. Overall, these results demonstrate that the AiCPP model is a highly accurate and reliable method for predicting CPPs.  
   
+Table 3. Performance evaluation of the CPP predictors. Bold numbers indicate the highest values.  
 ![image](https://user-images.githubusercontent.com/94620359/212254581-e7c25de0-bcea-4cf3-a6a3-bf84dde806bb.png)   
   
   
